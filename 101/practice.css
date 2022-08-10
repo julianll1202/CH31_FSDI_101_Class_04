@@ -1,0 +1,44 @@
+/*global styles*/
+h2{
+    color: bisque;
+    background-color: azure;
+}
+/*Style definition for the big titles*/
+h1{
+    color:red;
+    background-color: black;
+    text-align: center;
+    font-family: arial;
+}
+.text{
+    color:black;
+    background-color: gainsboro;
+    font-size: 14px;
+    font-family: arial;
+    text-align: justify;
+
+}
+
+header nav.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: lightgray;
+    
+}
+
+
+header nav.menu a{
+    color: white;
+    
+    background-color: black;
+    width: 150px;
+}
+/*Id selector */
+#addBtn{
+    border: none;
+    background-color: skyblue;
+    padding: 10px;
+    color:whitesmoke;
+    border-radius: 10px;
+}

@@ -1,0 +1,330 @@
+/*Link that lets me use some fonts from google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap');
+
+/*Global*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: #FAF9F9;
+    padding-left: 1rem;
+    overflow-x: hidden;
+}
+
+h1,h2,h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.main-div{
+    display: flex;
+}
+
+
+/*header*/
+.site-header{
+    width: 30%;
+    padding: 1rem;
+    height: 100rem;
+    background-color: #89B0AE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.site-header h1{
+    color:white;
+    font-size: 2rem;
+}
+
+.site-header .title{
+    color: white;
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.site-header .location{
+    text-align: center;
+    color: white;
+    font-size: 1.6rem;
+}
+
+.site-header .location i{
+    margin-right: 8px;
+}
+
+.site-header img{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 5px solid #A4CAC5;
+}
+
+
+
+
+
+/*Main*/
+main{
+    width: 70%;
+}
+
+main p{
+    color: black;
+    font-size: 1.6rem;
+    margin-left: 2rem;
+}
+
+.site-main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+    font-size: 1.6rem;
+}
+
+.greeting{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.my-name{
+    font: 2rem;
+    text-transform: uppercase;
+    color: #89B0AE;
+    letter-spacing: 3px;
+}
+
+.my-name span{
+    color: black;
+}
+
+/*Animations*/
+.site-header .location:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+/*About*/
+.info h3{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    padding: 1rem;
+    font-weight: normal;
+    color: #555B6E;
+}
+
+.info h3 span{
+    color: black;
+    margin-right: 1rem;
+}
+
+.info{
+    background-color: #DCEEEA;
+    border-radius: 5%;
+    width:40%;
+}
+
+
+/*Education*/
+.box{
+    background-color: #DCEEEA;
+    margin: 3rem;
+    width: 40rem;
+    padding: 1rem;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.edu{
+    align-items: center;
+}
+.education-year{
+    display: flex;
+}
+
+.education-year i{
+    border: 2px solid #BEE3DB;
+    border-radius: 50%;
+    padding: 0.5rem;
+    margin-right: 1rem;
+}
+
+.education-year span{
+    background-color: #BEE3DB;
+    border-radius: 2rem;
+    padding: 5px;
+    width: auto;
+}
+
+.school{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.box p{
+    font-size: 1.4rem;
+}
+
+.degree{
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/*Portfolio*/
+/*Web development styles*/
+.web-dev{
+    border: 2px solid #555B6E;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.web-dev h4{
+    text-align: center;
+}
+
+.web-dev ul{
+    list-style-type: none;
+}
+
+.web-dev ul li{
+    background-color: #DCEEEA;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 10px;
+    border-left: 20px solid #BEE3DB;
+}
+
+.web-dev ul li:hover{
+    border-left: none;
+    border-right: 20px solid #BEE3DB;
+}
+
+/*School Project styles*/
+.school-prj{
+    border: 2px solid #555B6E;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.school-prj h4{
+    text-align: center;
+}
+
+.school-prj ul{
+    list-style-type: none;
+}
+
+.school-prj ul li{
+    background-color: #FDE8DA;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 10px;
+    border-left: 20px solid #FFD6BA;
+}
+
+.school-prj ul li:hover{
+    border-left: none;
+    border-right: 20px solid #FFD6BA;
+}
+
+/*Contact*/
+.contact{
+    display: flex;
+}
+
+.contact ul{
+    list-style: none;
+}
+
+.contact ul li span{
+    background-color: #DCEEEA;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: auto;
+    border-radius: 2rem;
+    padding: 4px;
+    font-size: 1.8rem;
+}
+.contact ul li i{
+    margin: 5px;
+    border: 2px solid #A4CAC5;
+    border-radius: 50%;
+    padding: 5px;
+    align-items: center;
+
+}
+/*Menu*/
+nav.menu{
+    width: 100%;
+}
+
+
+/*Utilities*/
+.container{
+    width: 65%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.heading{
+    text-align: center;
+    margin: 0 5rem;
+    font-size: 4rem;
+    padding: 1rem;
+}
+
+a.btn{
+    display: block;
+    padding: 1rem;
+    font-size: 2rem;
+    background-color: #A4CAC5;
+    color: white;
+    border-radius: 5rem;
+    margin: 1.5rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn-small{
+    width: 15rem;
+    font-size: 1.4rem;
+}
